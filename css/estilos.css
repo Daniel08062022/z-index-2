@@ -1,0 +1,34 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: avengers;
+    src: url(fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.ttf);
+}
+
+h1 {
+    font-family: avengers;
+}
+
+.cajaWaterson {
+    display: block;
+    width: 30vw;
+}
+
+.gumball {
+    margin: 170px 0 0 700px;
+    height: 60%;
+}
+
+.darwin {
+    margin: 280px 0 0 420px;
+    height: 50%;
+}
+
+.anais {
+    margin: 200px 0 0 150px;
+}
